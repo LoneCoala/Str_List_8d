@@ -35,7 +35,7 @@ namespace Str_List_8d
             }
             Console.WriteLine("\nПеренести последний элемент в начало, добавить элементы или закончить выполнение программы?\n1.Перенести\n2.Добавить\n0.Закончить");
             string choose = "";
-            while (choose!= "0")
+            while (1 != 0)
             {
                 choose = Console.ReadLine();
                 if (choose == "2")
